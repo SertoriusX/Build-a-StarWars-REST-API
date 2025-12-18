@@ -15,7 +15,8 @@ venv\Scripts\activate
 # On macOS/Linux:
 # source venv/bin/activate
 
-#python run.py
+#To start backend server you need to use this command where you can find below
+python run.py
 
 # Move to frontend folder
 cd ../react_app
@@ -24,4 +25,6 @@ cd ../react_app
 npm install
 npm install react-router-dom
 npm install axios
+#To start frontend server you need to use this command where you can find below
 npm run dev
+
