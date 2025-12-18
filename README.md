@@ -19,7 +19,7 @@ venv\Scripts\activate
 python run.py
 
 # Move to frontend folder
-cd ../react_app
+cd my-app
 
 # Install frontend dependencies
 npm install
@@ -27,4 +27,5 @@ npm install react-router-dom
 npm install axios
 #To start frontend server you need to use this command where you can find below
 npm run dev
+
 
