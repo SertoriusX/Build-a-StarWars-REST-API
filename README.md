@@ -1,57 +1,27 @@
-# StarWars REST API
-
-A full-stack StarWars-themed REST API project built with **Flask** (backend) and **React** (frontend).
-
----
-
-## Project Overview
-
-This repository contains two parts:
-
-- **Backend:** Flask REST API with JWT authentication, database management, and secure password hashing.
-- **Frontend:** React app with routing and API calls to the Flask backend.
-
----
-
-## Prerequisites
-
-Make sure you have installed:
-
-- Python 3.7+
-- Node.js and npm
-
----
-
 ## Setup Instructions
 
-### 1. Backend Setup (Flask)
+### 1. Clone the repository and setup both backend and frontend
 
 ```bash
+# Backend setup
 cd flask_app
 
-# Create a virtual environment
+# Create and activate virtual environment
 python -m venv venv
 
-# Activate the virtual environment
-# Windows
+# On Windows:
 venv\Scripts\activate
 
-# macOS/Linux
-source venv/bin/activate
+# On macOS/Linux:
+# source venv/bin/activate
 
-# Install Python dependencies
-pip install -r requirements.txt
+#python run.py
 
-
-
-
-
-### 2. Frontend Setup (React)
-```bash
-cd my_app
+# Move to frontend folder
+cd ../react_app
 
 # Install frontend dependencies
 npm install
 npm install react-router-dom
 npm install axios
-
+npm run dev
