@@ -41,3 +41,17 @@ source venv/bin/activate
 
 # Install Python dependencies
 pip install -r requirements.txt
+
+
+
+
+
+### 2. Frontend Setup (React)
+```bash
+cd my_app
+
+# Install frontend dependencies
+npm install
+npm install react-router-dom
+npm install axios
+
