@@ -25,7 +25,9 @@ cd my-app
 npm install
 npm install react-router-dom
 npm install axios
+npm install bootstrap
 #To start frontend server you need to use this command where you can find below
 npm run dev
+
 
 
